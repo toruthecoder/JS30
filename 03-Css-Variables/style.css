@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --base: #f5ceb3;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    background-color: var(--base);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    width: 900px;
+    height: 570px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+input{
+    width: 100px;
+}

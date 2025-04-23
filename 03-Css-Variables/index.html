@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="control">
+
+        <label for="spacing">Spacing :</label>
+        <input type="range" id="spacing" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        
+        <label for="blur">Blur :</label>
+        <input type="range" id="blur" name="blur" min="0" max="25" value="10" data-sizing="px">
+        
+        <label for="base">BaseColor</label>
+        <input type="color" id="base" name="base" value="#f5ceb3">
+    </div>
+
+    <img src="images/cat.avif" alt="cat sticking its toungh out photo">
+
+    <script src="script.js"></script>
+</body>
+</html>
