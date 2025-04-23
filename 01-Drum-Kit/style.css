@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #e9dbc6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 90vh;
+    gap: 50px; 
+}
+
+.key{
+    border: 1px solid black;
+    padding: 16px 15px;
+    font-size: 1rem;
+    transition: all .07s ease;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    text-shadow: 0 0 0.5rem black;
+    border-radius: 5px;
+}
+
+.sound{
+    display: flex;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
